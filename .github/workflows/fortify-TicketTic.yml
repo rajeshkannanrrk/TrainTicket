@@ -23,7 +23,7 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-  schedule:
+  #schedule:
     - cron: '16 9 * * 2'
 
 jobs:
